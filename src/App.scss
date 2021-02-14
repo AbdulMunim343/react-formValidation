@@ -1,0 +1,53 @@
+body{
+    background-image: url(assets/img/creative.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.forContainer{
+    width: 40%;
+    height: 40vh;
+    background-color:rgba(0,0,0,0.6);
+    margin:10% auto;
+    border-radius: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    h1{
+        color: white;
+        font-family: sans-serif;
+    }
+
+    form{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        input{
+            outline: none;
+           
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        button{
+            padding: 10px 25px;
+            background:linear-gradient(#1f9884,#175194) ;
+            outline: none;
+            border: none;
+            color: white;
+            border-radius: 10px;
+            width: 100px;
+            margin: auto;
+            transition: 0.5s;
+            font-size: 16px;
+            font-weight: bold;
+            &:hover{
+                background:none;
+                border:1px solid #175194 ;
+            }
+        }
+    }
+}
